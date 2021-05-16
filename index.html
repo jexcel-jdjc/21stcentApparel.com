@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>21st Cent APPAREL</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="categories.html">CATEGORIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+			<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+		</nav>
+
+<div class="text-box">
+	<h1>21st Cent APPAREL</h1>
+	<p><i>Welcome to 21st Cent APPAREL wherein your style your choice!</i></p>
+	<a href="" class="hero-btn"><b>Visit us to know more</b></a>
+</div>
+	</section>
+<!--------Categories-------->
+
+<section class="categories">
+	<h1>Choose your Style</h1>
+	<p>Be your own fashion</p>
+
+	<div class="row">
+		<div class="categories-col">
+			<img src="images/tops.jpg">
+			<div class="layer">
+			<h3>TOPS</h3>
+		</div>
+		</div>
+		<div class="categories-col">
+			<img src="images/dresses.jpg">
+			<div class="layer">
+			<h3>DRESSES</h3>
+		</div>
+		</div>
+		<div class="categories-col">
+			<img src="images/bottoms.jpg">
+			<div class="layer">
+			<h3>BOTTOMS</h3>
+		</div>
+		</div>
+</section>
+
+
+<!-------Call to Action------>
+<section class="cta">
+	<h1>We're available for now in selected locations</h1>
+	<a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-----About----->
+<section class="about">
+	<h4>About Us</h4>
+	<p><b>21st Cent APPAREL is a budget friendly OOTD, brand new and preloved clothing for men and women online apparel shop.</b></p><br><br>
+
+	<div class="icons">
+		<i class="fab fa-facebook-square"></i>
+		<i class="fas fa-envelope"></i>
+		<i class="fas fa-mobile-alt"></i>
+		<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+	</div>
+	<p>Happy Shopping! ♡</p>
+</section>
+
+<!-------JavaScript for toggle Menu--------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>

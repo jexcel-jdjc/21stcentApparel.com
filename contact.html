@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>21st Cent APPAREL</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="categories.html">CATEGORIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+			<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+		</nav>
+		<h1>Categories</h1>
+	</section>
+<!--------Contact us page-------->
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.6847926039845!2d121.0432184!3d14.502775700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cf235ef0a80f%3A0xd7909c66a4b420d9!2sFTI%20Ave%2C%20Taguig%2C%201630%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1621144552563!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<span>
+					<h5>FTI-MRB Habitat Family Townhomes</h5>
+					<p>Western Bicutan, Taguig City</p>
+				</span>
+			</div>
+			<div>
+				<i class="fab fa-facebook-square"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<span>
+					<h5><a href="https://www.facebook.com/21stcentapparel" target="right" style="color: #555">Facebook.com/21stcentapparel</h5></a>
+					<p>See us on Facebook</p>
+				</span>
+			</div>
+			<div>
+				<i class="fas fa-envelope"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<span>
+					<h5>jemopqrst@gmail.com</h5>
+					<p>Send us emails</p>
+				</span>
+			</div>
+			<div>
+				<i class="fas fa-mobile-alt"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<span>
+					<h5>0926-320-7944</h5>
+					<p>Send us sms or Call us<br>Open from Monday-Sunday, 8AM to 10PM</p>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name" required="">
+				<input type="email" name="email" placeholder="Enter your email address" required="">
+				<input type="text" name="order" placeholder="Enter your order" required="">
+				<textarea rows="8" name="message" placeholder="Message" required=""></textarea>
+				<button type="submit" class="hero-btn red-btn">Send Message</button>
+			</form>
+	</div>
+</section>
+
+<!-----About----->
+<section class="about">
+	<h4>About Us</h4>
+	<p><b>21st Cent APPAREL is a budget friendly OOTD, brand new and preloved clothing for men and women online apparel shop.</b></p><br><br>
+
+	<div class="icons">
+		<i class="fab fa-facebook-square"></i>
+		<i class="fas fa-envelope"></i>
+		<i class="fas fa-mobile-alt"></i>
+		<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+	</div>
+	<p>Happy Shopping! ♡</p>
+</section>
+
+
+<!-------JavaScript for toggle Menu--------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>

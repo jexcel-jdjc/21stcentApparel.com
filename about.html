@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>21st Cent APPAREL</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fas fa-times" onclick="hideMenu()"></i>
+				<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="categories.html">CATEGORIES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fas fa-bars" onclick="showMenu()"></i>
+			<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+		</nav>
+		<h1>About Us</h1>
+	</section>
+<!--------About us content-------->
+<section class="about-us">
+
+	<div class="row">
+		<div class="about-col">
+			<h1>21st Century APPAREL</h1><br>
+			<p>Our shop will provides high quality and branded preloved clothes for both men and women for a very friendly price. We would like to remind all shoppers that we are not allowing any cancelations of order, no swapping of items, no rush shopping and a 2 days reservation only to recieved your items. We can assure you to give your items in expected delivery time.</p><br>
+			<a href="" class="hero-btn red-btn">SHOP NOW</a>
+		</div>
+		<div class="about-col">
+			<img src="https://scontent.fmnl25-2.fna.fbcdn.net/v/t1.6435-9/168920706_103475528526603_8360445987783921576_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=e3f864&_nc_eui2=AeEbLKrbYTXwqr1-Za5R0TY_XzPnjDZBQEdfM-eMNkFARxJ8fk0goAFmMGaqNpsgd9eNubqKHAJRgpC866qZeXkS&_nc_ohc=OzDh3N8zNEIAX_z_l05&_nc_ht=scontent.fmnl25-2.fna&oh=f8eb6a60b8662bd6238d8afdb8b8a8d1&oe=60C60B79">
+		</div>
+	</div>
+	<div class="row">
+		<div class="about-col">
+			<h1>Person in charge</h1>
+			<p><big>•Shairhyne J. Kalaque•</big> <br><br>Hello! My name is Shairhyne, I am one of the owner of 21st Cent APPAREL. I am currently studying at Signal Village National High School (SVNHS) as a Grade 12 student. Born and raised in Taguig City since September 13, 2000. My zodiac sign is Virgo ♍. I am an extrovert person so I usually have friends whenever I go but despite of that I have friends that I treasure the most. I love to share my knowledge because "sharing is caring". One day I will become a sucessfull business woman, just trust in the process!.</p>
+			</div>
+			<div class="about-col-ren">
+				<img src="images/ren.jpg">
+			</div>		
+		</div>
+</section>
+
+<!-----About----->
+<section class="about">
+	<h4>About Us</h4>
+	<p><b>21st Cent APPAREL is a budget friendly OOTD, brand new and preloved clothing for men and women online apparel shop.</b></p><br><br>
+
+	<div class="icons">
+		<i class="fab fa-facebook-square"></i>
+		<i class="fas fa-envelope"></i>
+		<i class="fas fa-mobile-alt"></i>
+		<script src="https://kit.fontawesome.com/2eda3e5c61.js" crossorigin="anonymous"></script>
+	</div>
+	<p>Happy Shopping! ♡</p>
+</section>
+
+<!-------JavaScript for toggle Menu--------->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
